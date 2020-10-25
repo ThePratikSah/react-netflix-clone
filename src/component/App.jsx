@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <Banner />
-      <Row title="Netflix Originals" fetchURL={requests.originals} isLargeRow />
+      <Row title="Netflix Originals" fetchURL={requests.action} isLargeRow />
       <Row title="Trending Now" fetchURL={requests.trending} />
       <Row title="Top Rated" fetchURL={requests.top_rated} />
       <Row title="Action Movies" fetchURL={requests.action} />
